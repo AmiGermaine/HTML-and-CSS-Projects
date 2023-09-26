@@ -269,22 +269,22 @@ section {
     font-size: 15px;
     outline: none;
     font-weight: 600;
-    color: #2d2f31;
+    color: #fff;
     padding: 2% 1% 2% 7%;
     width: 80%;
-    border-top: 1px solid #090b0d;
+    border-top: 1px solid #a2a4a7;
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
-    border-left: 1px solid #090b0d;
+    border-left: 1px solid #a2a4a7;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #13161b;
+    background: #2d2d2e;
     box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
     font-family: 'Raleway', sans-serif;
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: 0 0 18px rgba(44, 44, 43, 0.8);
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
 }
 
 .form-spacer {
