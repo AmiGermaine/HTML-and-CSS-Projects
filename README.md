@@ -2,7 +2,7 @@
 This repository is for my HTML and CSS Course assignments
 <br>
 # Projects
-Travel Blog Site <br>
+Explore Blog Site <br>
 Movie Theater Site
 
 # Explore Blog Site
