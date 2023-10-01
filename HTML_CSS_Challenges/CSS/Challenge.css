@@ -1,0 +1,123 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    filter: contrast(100%);
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/* Container holding the image and text */
+.container {
+    position: relative;
+    text-align: auto;
+    color: rgb(0, 0, 0);
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 9px;
+    right: 17px;
+}
+
+/* The Navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: rgb(231, 193, 188);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Positoon the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px 15px;
+    text-decoration: wavy;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+
+table,th, td {
+    border: 2px solid;
+    width: 25%;
+    padding: 3px;
+    background-color: rgb(226, 209, 209);
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 11px;
+    height: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: rgb(30, 143, 143);
+}
+
+h3, h4 {
+    background-color: rgb(49, 36, 36);
+    color: #fff;
+}
+
+div {
+    background-color: rgb(104, 79, 79);
+    color: rgb(0, 148, 148);
+}
+
+p:hover, h3:hover, a:hover {
+    background-color: rgb(238, 151, 165);
+}
+
+video {
+    filter: contrast(100%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.div embed {
+    height: 100px;
+    width: 50%;
+    overflow: hidden;
+}
